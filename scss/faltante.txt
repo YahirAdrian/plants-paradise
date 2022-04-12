@@ -1,0 +1,60 @@
+// ---- FONT CONFIGURATION ----
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Italic.ttf');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Light.ttf');
+    font-style: normal;
+    font-weight: light;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-LightItalic.ttf');
+    font-style: italic;
+    font-weight: light;
+}
+
+
+// ---- COLOR PALETTE SETUP ----
+$primary : #066331;
+$secondary: #123E73;
+$dark: #173123;
+
+
+// ---- BASIC STYLES ----
+body{
+    background: darkgreen;
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    color: white;
+}
+
+
+

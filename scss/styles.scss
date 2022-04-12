@@ -1,7 +1,96 @@
-body{
-    background: darkgreen;
+// ---- COLOR PALETTE SETUP ----
+$primary : #114022;
+$secondary: #123E73;
+$dark: #173122;
+
+// ---- FONT CONFIGURATION ----
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Italic.ttf');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-Light.ttf');
+    font-style: normal;
+    font-weight: light;
+}
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../src/font/Ubuntu-LightItalic.ttf');
+    font-style: italic;
+    font-weight: light;
 }
 
-h1{
-    color: white;
+
+// ---- COLOR PALETTE SETUP ----
+$primary : #066331;
+$secondary: #123E73;
+$dark: #173123;
+
+@import "../lib/bootstrap-5.1.3/scss/bootstrap";
+
+// ---- BASIC STYLES ----
+body{
+    font-family: 'Ubuntu';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#banner{
+    background-image: url('../src/images/image-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+}
+
+#banner-box{
+    background: #ffffff82
+}
+
+.steps .step-box{
+    width: 150px;
+    height: 150px;
+}
+
+.number{
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 0.8rem;
+    color: #4e4646;
+}
+
+footer{
+    min-height: 200px;
 }

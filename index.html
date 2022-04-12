@@ -5,11 +5,197 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Plantas y decoraciones PlantsParadise</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="shortcut icon" href="src/images/logo/logo.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/styles.css"/>
     </head>
+
     <body>
-        <h1>Mi sitio web con bootstrap 5</h1>
-        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="src/images/logo/planta-arana.png" alt="Logo plants paradise" width="50">
+                  <span class="h2 px-3">PlantsParadise</span>
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+          <div class="container-fluid px-0 d-flex align-items-end justify-content-start py-0" id="banner">
+                <div class="container mx-0 p-5 rounded" id="banner-box">
+                    <h2 class="text-primary">Bienvenido a PlantsParadise</h2>
+                    <span class="h4 px-2">Los servicios de jardineria que siempre has desado</span>
+                </div>
+          </div>
+
+          <div class="container my-5" id="about">
+            <h2 class="text-secondary py-3 bold">Nuestro propósito</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui accusamus minima molestiae nostrum suscipit maxime quae error provident.
+                Delectus suscipit sint voluptatibus harum velit! Ut delectus aspernatur nobis et id!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui accusamus minima molestiae nostrum suscipit maxime quae error provident.
+                Delectus suscipit sint voluptatibus harum velit! Ut delectus aspernatur nobis et id!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui accusamus minima molestiae nostrum suscipit maxime quae error provident.
+                Delectus suscipit sint voluptatibus harum velit! Ut delectus aspernatur nobis et id!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui accusamus minima molestiae nostrum suscipit maxime quae error provident.
+                Delectus suscipit sint voluptatibus harum velit! Ut delectus aspernatur nobis et id!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Qui accusamus minima molestiae nostrum suscipit maxime quae error provident.
+                Delectus suscipit sint voluptatibus harum velit! Ut delectus aspernatur nobis et id!
+            </p>
+          </div>
+          <div class="container my-5" id="order-service">
+            <h2 class="text-secondary py-3 bold"><strong>Solicita nuestros servicios</strong></h2>
+            <p>Solicita nuestros sevicios sencillamente desde la comodidad de tu casa. </p>
+            
+            <div class="container steps d-flex flex-row justify-content-around">
+              <div class="mx-2 my-3 step-box rounded-circle border border-success d-flex flex-column">
+                <span class="number border border-light bg-dark rounded-circle text-white">1</span>
+                <img class="m-auto" src="src/images/icons/search.png" alt="imagen lupa" width="30"/>
+                <p class="indication text-center px-2">Encuentra tu servicio</p>
+              </div>
+              <div class="mx-2 my-3 step-box rounded-circle border border-success d-flex flex-column">
+                <span class="number border border-light bg-dark rounded-circle text-white">2</span>
+                <img class="m-auto" src="src/images/icons/comment.png" alt="imagen lupa" width="30"/>
+                <p class="indication text-center px-2">Proporciona datos del servicio</p>
+              </div>
+              <div class="mx-2 my-3 step-box rounded-circle border border-success d-flex flex-column">
+                <span class="number border border-light bg-dark rounded-circle text-white">3</span>
+                <img class="m-auto" src="src/images/icons/calendar.png" alt="imagen lupa" width="30"/>
+                <p class="indication text-center px-2">Agenda la fecha y el lugar</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <h2 class="bold text-secondary">Nuestros servicios</h2>
+
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                  <img src="src/images/flower-basket.jpg" class="card-img-top" alt="Arreglos florales comunes">
+                  <div class="card-body">
+                    <h5 class="card-title">Arreglos florales comunes</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, aspernatur atque, voluptate assumenda est asperiores quis placeat aliquid quae, rerum et quod harum ex iure optio commodi alias velit officia!.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                  <img src="src/images/gardening-service.jpg" class="card-img-top" alt="Servicio de jardinería">
+                  <div class="card-body">
+                    <h5 class="card-title">Servicio de jardinería</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, ad beatae nesciunt cumque sed, quibusdam ullam ab repudiandae impedit optio voluptate? Nam odit adipisci debitis minus asperiores quod maxime ea!</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                  <img src="src/images/plants-heart.jpg" class="card-img-top" alt="Arreglo de arbustos">
+                  <div class="card-body">
+                    <h5 class="card-title">Arreglo de arbustos</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat hic dolore et animi placeat accusamus quibusdam adipisci aut, error aperiam, ipsum incidunt ab numquam nostrum fuga dolorum doloremque laudantium. Sapiente.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                  <img src="src/images/exotic-plants.jpg" class="card-img-top" alt="Plantas para tu jardin">
+                  <div class="card-body">
+                    <h5 class="card-title">Plantas para tu jardín</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur iusto sit mollitia modi dignissimos quasi eum eligendi iure beatae id impedit, officia ex quos maiores ullam delectus autem dolorum nostrum!</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                  <img src="src/images/seedling.jpg" class="card-img-top" alt="Semillas">
+                  <div class="card-body">
+                    <h5 class="card-title">Semillas de plantas</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, perferendis ut. Repudiandae maxime quidem iure, sit harum explicabo quod dignissimos eaque reiciendis odio, soluta iusto, officiis quis error saepe libero.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                  <img src="src/images/wedding-photography.jpg" class="card-img-top" alt="Arreglos florales para bodas">
+                  <div class="card-body">
+                    <h5 class="card-title">Arreglos florales para bodas</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eaque enim quos rerum soluta nemo similique doloribus provident! Obcaecati blanditiis dolor amet distinctio voluptatibus ducimus iusto dolorem. Iure, inventore eaque.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                  <img src="src/images/pot.jpg" class="card-img-top" alt="Macetas">
+                  <div class="card-body">
+                    <h5 class="card-title">Macetas</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquid tenetur alias deleniti, molestiae explicabo unde quaerat placeat atque eos neque animi pariatur, voluptatibus accusantium! Voluptates ea ipsum saepe consequuntur.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <h2 class="bold text-secondary">Ubicación</h2>
+            <iframe  class="mx-auto d-block my-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481726.88754276774!2d-99.42381495030902!3d19.39116683597352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1649724976781!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <footer class="container-fluid bg-dark text-white py-5">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h3>Contacto</h3>
+              <p><img src="src/images/icons/mail.png" class="me-2" alt="Mail" width="20"> Contacto@plantsparadise.com</p>
+              <p><img src="src/images/icons/phone.png" class="me-2" alt="Phone" width="20"> +52 123 456 78 90</p>
+              <p><img src="src/images/icons/location.png" class="me-2" alt="Location" width="20"> Ciudad de México, Alvaro Obregón, Esquina 12 #254</p>
+              <h3>Siguenos en nuestras redes sociales</h3>
+              <a href="#" class="text-white"><img src="src/images/icons/facebook.png" class="me-2" alt="Facebook" width="20"> /Plants Paradise</a>
+              <a href="#" class="text-white"><img src="src/images/icons/instagram.png" class="me-2" alt="Instagram" width="20"> @plants_paradise</a>
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <h3>Suscribete para recibir noticias sobre nuestros servicios</h3>
+              <form action="#">
+                <div class="d-grid gap-2">
+                  <input class="form-control" type="email" id="email" placeholder="Correo"/>
+                  <button type="submit" class="btn btn-primary">Suscribirse</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <p class="mt-5">*Este sitio web fue hecho con fines unicamente de desarrollo. La información aqui presentada es ficticia</p>
+        </footer>
+        <script src="lib/bootstrap-5.1.3/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
