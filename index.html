@@ -40,13 +40,13 @@
           </nav>
     
           <div class="container-fluid px-0 d-flex align-items-end justify-content-start py-0" id="banner">
-                <div class="container mx-0 p-5 rounded" id="banner-box">
+                <div class="container-fluid mx-0 p-5 rounded" id="banner-box">
                     <h2 class="text-primary">Bienvenido a PlantsParadise</h2>
                     <span class="h4 px-2">Los servicios de jardineria que siempre has desado</span>
                 </div>
           </div>
 
-          <div class="container my-5" id="about">
+          <div class="container my-2-sm my-5" id="about">
             <h2 class="text-secondary py-3 bold">Nuestro propósito</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Qui accusamus minima molestiae nostrum suscipit maxime quae error provident.
@@ -69,7 +69,7 @@
             <h2 class="text-secondary py-3 bold"><strong>Solicita nuestros servicios</strong></h2>
             <p>Solicita nuestros sevicios sencillamente desde la comodidad de tu casa. </p>
             
-            <div class="container steps d-flex flex-row justify-content-around">
+            <div class="container steps d-flex flex-row flex-wrap justify-content-around">
               <div class="mx-2 my-3 step-box rounded-circle border border-success d-flex flex-column">
                 <span class="number border border-light bg-dark rounded-circle text-white">1</span>
                 <img class="m-auto" src="src/images/icons/search.png" alt="imagen lupa" width="30"/>
@@ -168,27 +168,29 @@
 
           <div class="container">
             <h2 class="bold text-secondary">Ubicación</h2>
-            <iframe  class="mx-auto d-block my-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481726.88754276774!2d-99.42381495030902!3d19.39116683597352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1649724976781!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="row">
+              <iframe  id="map"class="mx-auto embed-responsive embed-responsive-16by9" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481726.88754276774!2d-99.42381495030902!3d19.39116683597352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1649724976781!5m2!1ses!2smx" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
 
           <footer class="container-fluid bg-dark text-white py-5">
           <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-md-6">
               <h3>Contacto</h3>
-              <p><img src="src/images/icons/mail.png" class="me-2" alt="Mail" width="20"> Contacto@plantsparadise.com</p>
-              <p><img src="src/images/icons/phone.png" class="me-2" alt="Phone" width="20"> +52 123 456 78 90</p>
-              <p><img src="src/images/icons/location.png" class="me-2" alt="Location" width="20"> Ciudad de México, Alvaro Obregón, Esquina 12 #254</p>
+              <p><img src="src/images/icons/mail.png" class="me-2 ps-2" alt="Mail" width="20"> Contacto@plantsparadise.com</p>
+              <p><img src="src/images/icons/phone.png" class="me-2 ps-2" alt="Phone" width="20"> +52 123 456 78 90</p>
+              <p><img src="src/images/icons/location.png" class="me-2 ps-2" alt="Location" width="20"> Ciudad de México, Alvaro Obregón, Esquina 12 #254</p>
               <h3>Siguenos en nuestras redes sociales</h3>
-              <a href="#" class="text-white"><img src="src/images/icons/facebook.png" class="me-2" alt="Facebook" width="20"> /Plants Paradise</a>
-              <a href="#" class="text-white"><img src="src/images/icons/instagram.png" class="me-2" alt="Instagram" width="20"> @plants_paradise</a>
+              <a href="#" class="text-white ps-2"><img src="src/images/icons/facebook.png" class="me-2" alt="Facebook" width="20"> /Plants Paradise</a>
+              <a href="#" class="text-white ps-2"><img src="src/images/icons/instagram.png" class="me-2" alt="Instagram" width="20"> @plants_paradise</a>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-sm-8 col-md-4 mt-5">
               <h3>Suscribete para recibir noticias sobre nuestros servicios</h3>
               <form action="#">
                 <div class="d-grid gap-2">
-                  <input class="form-control" type="email" id="email" placeholder="Correo"/>
-                  <button type="submit" class="btn btn-primary">Suscribirse</button>
+                  <input class="form-control my-2-sm" type="email" id="email" placeholder="Correo"/>
+                  <button class="btn btn-primary my-2-sm" type="submit">Suscribirse</button>
                 </div>
               </form>
             </div>

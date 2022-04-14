@@ -12014,12 +12014,19 @@ body {
 }
 
 #banner-box {
-  background: #ffffff82;
+  background: #ffffffa4;
 }
 
 .steps .step-box {
   width: 150px;
   height: 150px;
+  min-width: 150px;
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
+}
+
+.steps .step-box:hover {
+  background-color: #9de0bc;
 }
 
 .number {
@@ -12041,4 +12048,16 @@ body {
 
 footer {
   min-height: 200px;
+}
+
+.card {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
