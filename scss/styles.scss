@@ -111,3 +111,29 @@ footer{
 
 // ---- MEDIA QUERIES ----
 
+
+.github{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: black;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    text-align: right;
+}
+
+.github a{
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration:none;
+}
+
+.github img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
